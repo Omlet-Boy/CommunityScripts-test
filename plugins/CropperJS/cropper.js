@@ -18,7 +18,7 @@
         (global.Cropper = factory()));
 })(this, function () {
   "use strict";
-
+  console.log("test");
   function ownKeys(e, r) {
     var t = Object.keys(e);
     if (Object.getOwnPropertySymbols) {
